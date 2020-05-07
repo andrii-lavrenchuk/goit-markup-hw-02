@@ -6,49 +6,11 @@
 /* рік (футер) rgba(255, 255, 255, 0.4) */
 /* вторичний колір фону #F5F4FA */
 /* колір фону футера #2F303A */
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --secondary-background-color: #f5f4fa;
-  --third-color: #ffffff;
-  --third-background-color: #2f303a;
-  --contacts-footer-color: rgba(255, 255, 255, 0.6);
-  --footer-year-color: rgba(255, 255, 255, 0.4);
-}
+
 .list {
   list-style: none;
 }
 
-.page-body {
-  background-color: var(--third-color);
-  color: var(--primary-text-color);
-}
-.logo {
-  color: var(--accent-color);
-}
-.logo-word {
-  color: var(--primary-text-color);
-}
-.logo-word-footer {
-  color: var(--third-color);
-}
-/* Site nav */
-.site-nav .link {
-  color: var(--primary-text-color);
-}
-.site-nav .link:focus,
-.site-nav .link:hover {
-  color: var(--accent-color);
-}
-/* Address */
-.address-list .link {
-  color: var(--primary-text-color);
-}
-.address-list .link:focus,
-.address-list .link:hover {
-  color: var(--accent-color);
-}
 /* hero */
 
 .hero .hero-title {
@@ -79,25 +41,4 @@
 }
 .team-list .major {
   color: var(--secondary-text-color);
-}
-/* Footer */
-.footer {
-  background-color: var(--third-background-color);
-}
-.footer-address {
-  color: var(--third-color);
-}
-.footer-contacts {
-  color: var(--contacts-footer-color);
-}
-.call {
-  color: var(--third-color);
-}
-.footer-year {
-  color: var(--footer-year-color);
-}
-/* Button */
-.button {
-  color: var(--third-color);
-  background-color: var(--accent-color);
 }
