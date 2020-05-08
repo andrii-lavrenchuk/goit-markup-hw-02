@@ -12,9 +12,18 @@
 .page-body {
   background-color: var(--third-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .logo {
   color: var(--accent-color);
+
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo-word {
   color: var(--primary-text-color);
@@ -22,6 +31,12 @@
 /* Site nav */
 .site-nav .link {
   color: var(--primary-text-color);
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:focus,
 .site-nav .link:hover {
@@ -31,8 +46,16 @@
   color: var(--accent-color);
 }
 /* Address */
+
 .address-list .link {
   color: var(--primary-text-color);
+
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .address-list .link:focus,
 .address-list .link:hover {
@@ -42,23 +65,55 @@
 .footer {
   background-color: var(--third-background-color);
 }
+.logo-footer {
+  color: var(--accent-color);
+
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+}
 .logo-word-footer {
   color: var(--third-color);
 }
 .footer-address {
   color: var(--third-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer-contacts {
   color: var(--contacts-footer-color);
+
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
 }
-.call {
+.footer .call {
   color: var(--third-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .footer-year {
   color: var(--footer-year-color);
+
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 /* Button */
 .button {
   color: var(--third-color);
   background-color: var(--accent-color);
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
